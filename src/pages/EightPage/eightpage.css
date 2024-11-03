@@ -1,0 +1,51 @@
+/* First Animation */
+@keyframes slideOne {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-slideOne {
+  animation: slideOne 15s linear infinite;
+}
+
+/* .animate-slide:hover {
+  animation-play-state: paused; 
+} */
+
+.carouselImageOne {
+  max-height: 182px !important;
+  max-width: 202px !important;
+  min-height: 182px !important;
+  min-width: 202px !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Second Animation */
+@keyframes slide2 {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-slidetwo {
+  animation: slide2 15s linear infinite;
+}
+
+/* .animate-slidetwo:hover {
+  animation-play-state: paused;
+} */
+
+.carouselImagetwo {
+  max-height: 182px !important;
+  max-width: 202px !important;
+  min-height: 182px !important;
+  min-width: 202px !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
