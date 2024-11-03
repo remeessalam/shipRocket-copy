@@ -1,25 +1,5 @@
 import Button from "../../components/Button/Button";
-import secondCardImage from "../../assets/images/secondCardImage.webp";
-// const cardDetails = [
-//   {
-//     image: secondCardImage,
-//     heading: "Over 1 Trillion data points",
-//     paragraph:
-//       "Be it reducing RTO or improving conversions, utilise our AI-driven analytics to achieve it all smartly",
-//   },
-//   {
-//     image: secondCardImage,
-//     heading: "Over 1 Trillion data points",
-//     paragraph:
-//       "Be it reducing RTO or improving conversions, utilise our AI-driven analytics to achieve it all smartly",
-//   },
-//   {
-//     image: secondCardImage,
-//     heading: "Over 1 Trillion data points",
-//     paragraph:
-//       "Be it reducing RTO or improving conversions, utilise our AI-driven analytics to achieve it all smartly",
-//   },
-// ];
+
 const NinthPage = () => {
   return (
     <div className="w-[1320px] mx-auto my-20">
