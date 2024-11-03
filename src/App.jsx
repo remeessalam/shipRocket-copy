@@ -9,7 +9,7 @@ import FifthPage from "./pages/FifthPage/FifthPage";
 import SixthPage from "./pages/SixthPage/SixthPage";
 import SeventhPage from "./pages/SeventhPage/SeventhPage";
 import EightPage from "./pages/EightPage/EightPage";
-import NinthPage from "./pages/Ninthpage/NinthPage";
+import NinthPage from "./pages/NinthPage/NinthPage";
 
 function App() {
   const [showLandingHeader, setShowLandingHeader] = useState(true);
